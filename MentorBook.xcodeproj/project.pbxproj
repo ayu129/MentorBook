@@ -15,6 +15,7 @@
 		FB0D79C625C657F3005B5FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0D79C425C657F3005B5FD2 /* LaunchScreen.storyboard */; };
 		FB0D79D125C657F4005B5FD2 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D79D025C657F4005B5FD2 /* MentorBookTests.swift */; };
 		FB0D79DC25C657F4005B5FD2 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D79DB25C657F4005B5FD2 /* MentorBookUITests.swift */; };
+		FB0D79ED25C65AEA005B5FD2 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D79EC25C65AEA005B5FD2 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FB0D79D725C657F4005B5FD2 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0D79DB25C657F4005B5FD2 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		FB0D79DD25C657F4005B5FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB0D79EC25C65AEA005B5FD2 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FB0D79C225C657F3005B5FD2 /* Assets.xcassets */,
 				FB0D79C425C657F3005B5FD2 /* LaunchScreen.storyboard */,
 				FB0D79C725C657F3005B5FD2 /* Info.plist */,
+				FB0D79EC25C65AEA005B5FD2 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB0D79ED25C65AEA005B5FD2 /* Mentor.swift in Sources */,
 				FB0D79BE25C657F2005B5FD2 /* ViewController.swift in Sources */,
 				FB0D79BA25C657F2005B5FD2 /* AppDelegate.swift in Sources */,
 				FB0D79BC25C657F2005B5FD2 /* SceneDelegate.swift in Sources */,
